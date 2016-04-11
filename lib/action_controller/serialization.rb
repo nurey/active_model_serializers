@@ -16,7 +16,7 @@ module ActionController
     class << self
       attr_accessor :enabled
     end
-    self.enabled = true
+    self.enabled = false
 
     included do
       class_attribute :_serialization_scope
